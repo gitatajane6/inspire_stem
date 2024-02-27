@@ -15,4 +15,16 @@ for number in range(0,10):
     #squares of number
 for x  in range(0,11):
     print(str(x**2 )+ "\t",end=" ") # squares
+
+
+
+
+
+    
+    
+    #print name 5 times
+for name in range (0,5):
+    print("\t")
+    print ("Jane Njeri Gitata")
+
     

@@ -6,7 +6,7 @@ a= float(input ( "the first number is"))
 n= float(input ( "the number of terms is"))
 d= float(input ( "the different between terms is"))
 
-AP = a + (n-1)*d
+AP = a + (n-1)*d 
 
 print ("arithmetic progression is",AP)
 

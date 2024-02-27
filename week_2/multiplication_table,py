@@ -1,0 +1,11 @@
+# multiplication table
+#Date:22/2/2024
+#Name:Jane
+
+
+k=9
+for i in range (1,k+1):
+ for c in range (1,k+1):
+  print(str(i*c ) + "   \t",end = "   ")
+  
+  
