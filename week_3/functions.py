@@ -35,6 +35,6 @@ print(prod_nums(5,16))
 #for loop inside the function
 def  print_odds(first_no,last_no):
     for i in range (first_no,last_no):
-        print(i ,i+1)
+        print(i)
 print_odds(0,15)
 
