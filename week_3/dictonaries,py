@@ -1,0 +1,30 @@
+#has a key-value pair
+laptop = {"make":"lenovo","colour":"grey","weight":"1.2kg",
+"year":"2023"}
+
+print(laptop["make"])
+print(laptop["colour"])
+print(laptop["year"])
+
+laptop["colour"]="red"#change item
+laptop["year"]="2009"
+
+print(laptop)
+
+laptop["size"] = "1200mm x 600mm"#add new entry
+
+print(laptop)
+
+del laptop["colour"] # to delete entry
+print(laptop)
+
+
+
+siz_laptop= laptop.copy()# copying dictionaries
+print(siz_laptop)
+"""
+for key , value in laptop.items():
+ print(key)
+print("\n")
+print(value)
+"""

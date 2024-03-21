@@ -1,0 +1,32 @@
+    section{
+        background-color: chocolate;
+        color:darkgreen;
+        margin: 100 px;
+        padding: 50px;}
+       
+       
+    img{
+        width:60 ;
+        height: 70;
+    }
+    .Header-1{
+        color: magenta;
+    }
+.ball{
+    background-color:rebeccapurple ;
+    height:100 px;
+    width: 100px;
+    border-radius: 50%;
+}
+#bouncing {
+    position:absolute;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
